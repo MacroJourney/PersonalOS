@@ -1,5 +1,10 @@
 # PersonalOS - 人机协作个人操作系统
 
+[![GitHub](https://img.shields.io/badge/GitHub-MacroJourney%2FPersonalOS-blue?logo=github)](https://github.com/MacroJourney/PersonalOS)
+[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-v2.1-orange.svg)](CHANGELOG.md)
+[![Language](https://img.shields.io/badge/Language-简体中文-red.svg)](README.md)
+
 > 一个基于 AI 协作的个人成长和生产力系统
 
 ## 快速开始
@@ -85,6 +90,26 @@ references/     # 历史方案和参考资料
 
 本项目主要用于个人迭代需求。如有建议，欢迎提 Issue。
 
+## 相关链接
+
+- 📦 **GitHub 仓库**: https://github.com/MacroJourney/PersonalOS
+- 📖 **核心文档**: [docs/00_核心设计.md](docs/00_核心设计.md)
+- 🚀 **快速开始**: [docs/01_快速开始.md](docs/01_快速开始.md)
+- 💡 **示例**: [examples/](examples/)
+- 📚 **参考资料**: [references/](references/)
+
+## 致谢
+
+本项目整合了以下优秀方法论：
+
+- **Ideaverse** by Nick Milo - 知识管理框架
+- **PARA** by Tiago Forte - 信息组织方法
+- **Zettelkasten** by Niklas Luhmann - 笔记方法
+- **PDCA** by W. Edwards Deming - 持续改进循环
+- **GTD** by David Allen - 任务管理方法
+
 ## 许可
 
-MIT License
+Apache License 2.0
+
+详见 [LICENSE](LICENSE) 文件。
