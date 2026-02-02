@@ -10,7 +10,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone <your-repo-url> PersonalOS
+git clone git@github.com:MacroJourney/PersonalOS.git
 cd PersonalOS
 
 # 2. 创建用户工作空间
