@@ -20,13 +20,15 @@ PersonalOS/                          # 仓库根目录
 │   ├── 03_模板库.md                 # 即用模板集合
 │   ├── 04_AI配置完整版.md           # AI 系统提示词
 │   ├── 05_FAQ与防坑.md              # 常见问题和避坑
-│   └── PersonalOS_人机协作个人操作系统.md  # 完整系统说明
+│   └── 06_在仓库中搭建系统.md        # 在仓库中搭建工作空间指南
 │
 ├── templates/                       # 用户可复制的模板
 │   ├── 00_Core/                     # 核心配置模板
 │   │   ├── profile.template.md
 │   │   ├── interaction_rules.template.md
 │   │   └── stop_conditions.template.md
+│   │
+│   ├── CLAUDE.template.md           # CLAUDE.md 模板（Claude Code 引导程序）
 │   │
 │   ├── 01_Shared/                   # Obsidian Vault 基础结构（空）
 │   │   └── .gitkeep                 # 保持目录存在
@@ -37,7 +39,7 @@ PersonalOS/                          # 仓库根目录
 │       └── Ideaverse Zero 2.5/      # 精简版
 │
 ├── examples/                        # 示例和最佳实践
-│   ├── profile-examples.md          # 个人档案示例
+│   ├── profile-examples.md          # 底层画像示例
 │   ├── rules-examples.md            # 交互规则示例
 │   ├── project-workflow.md          # 项目工作流示例
 │   └── review-templates.md          # 复盘模板示例
@@ -64,7 +66,7 @@ PersonalOS/                          # 仓库根目录
 │   │       ├── 背景.md
 │   │       └── 聊天记录.md
 │   │
-│   └── 终极融合方案.md              # 三区框架与 PDCA 融合方案
+│   └── 终极融合方案.md              # 四区工作空间与 PDCA 融合方案（v2.1 前身）
 │
 ├── archive/                         # 归档（不相关内容）
 │   ├── README.md                    # 归档说明
@@ -107,9 +109,10 @@ PersonalOS/                          # 仓库根目录
 
 | 模板 | 用途 |
 |------|------|
-| `templates/00_Core/profile.template.md` | 创建个人档案 |
+| `templates/00_Core/profile.template.md` | 创建底层画像 |
 | `templates/00_Core/interaction_rules.template.md` | 定义 AI 交互规则 |
 | `templates/00_Core/stop_conditions.template.md` | 定义停止条件 |
+| `templates/CLAUDE.template.md` | CLAUDE.md 引导程序模板 |
 | `templates/obsidian-vault/Ideaverse Pro 2.5/` | 完整 Obsidian Vault 参考 |
 | `templates/obsidian-vault/Ideaverse Zero 2.5/` | 精简 Obsidian Vault 参考 |
 
@@ -117,7 +120,7 @@ PersonalOS/                          # 仓库根目录
 
 | 示例 | 用途 |
 |------|------|
-| `examples/profile-examples.md` | 查看个人档案示例 |
+| `examples/profile-examples.md` | 查看底层画像示例 |
 | `examples/rules-examples.md` | 查看交互规则示例 |
 | `examples/project-workflow.md` | 学习项目管理流程 |
 | `examples/review-templates.md` | 使用复盘模板 |
@@ -126,11 +129,12 @@ PersonalOS/                          # 仓库根目录
 
 | 资料 | 用途 |
 |------|------|
-| `references/AI数字分身系统/` | 了解 AI 数字分身的设计历史 |
+| `references/AI数字分身系统/` | 了解数字合伙人系统的设计历史 |
 | `references/三层PDCA方案/` | 了解 PDCA 系统的演化过程 |
-| `references/终极融合方案.md` | 了解三区框架与 PDCA 的融合 |
+| `references/终极融合方案.md` | 了解四区工作空间与 PDCA 的融合 |
+| `references/应用层设计方案.md` | PersonalOS 桌面应用技术规划（未来方向） |
 
-## 三区框架
+## 四区工作空间
 
 PersonalOS 支持两种使用方式：
 
@@ -145,6 +149,7 @@ PersonalOS/                  # 仓库根目录
 │   ├── profile.md
 │   ├── interaction_rules.md
 │   ├── stop_conditions.md
+│   ├── awakening_spell.md
 │   └── memory/
 │
 ├── 01_Shared/               # 你的 Obsidian Vault（.gitignore 排除）
@@ -191,13 +196,14 @@ PersonalOS/                  # 仓库根目录
 PersonalOS/                  # 用户工作空间（独立位置）
 │
 ├── 00_Core/                 # 核心配置（人类控制）
-│   ├── profile.md           # 个人档案 (<2000 字)
+│   ├── profile.md           # 底层画像（< 2000字，5分类）
 │   ├── interaction_rules.md # AI 交互规则
 │   ├── stop_conditions.md   # 停止条件
+│   ├── awakening_spell.md   # 唤醒咒语
 │   └── memory/              # 记忆系统
-│       ├── decisions/       # 重要决策
-│       ├── learnings/       # 经验教训
-│       └── preferences/     # 个人偏好
+│       ├── long_term.md     # 长期记忆（稳定的身份、目标、偏好）
+│       ├── recent_rolling.md # 近期滚动（最近30天，≤300字）
+│       └── compression_rule.md # 压缩规则（近期→长期）
 │
 ├── 01_Shared/               # 协作区（Obsidian Vault）
 │   ├── Atlas/               # 知识管理（Ideaverse）
@@ -220,13 +226,13 @@ PersonalOS/                  # 用户工作空间（独立位置）
 │   │   └── Works/           # 作品
 │   │
 │   ├── Strategy/            # 战略规划（PDCA 战略层）
-│   │   ├── Vision.md        # 愿景
-│   │   ├── Goals/           # 目标
-│   │   └── OKRs/            # OKR
+│   │   ├── north-star.md    # 北极星指标（3-5年方向）
+│   │   ├── annual-plan.md   # 年度计划
+│   │   ├── quarterly/       # 季度规划
+│   │   └── reviews/         # 战略复盘
 │   │
 │   ├── Meta/                # 系统元数据
 │   │   ├── rules/           # 决策规则库
-│   │   ├── skills/          # 技能库
 │   │   └── ai-conversations/ # 重要 AI 对话
 │   │
 │   ├── x/                   # 系统资源
@@ -398,9 +404,10 @@ tags: [tag1, tag2]
 1. 克隆或下载本仓库
 2. 阅读 `README.md` 了解项目
 3. 复制 `templates/00_Core/` 中的模板创建配置
-4. 选择 Ideaverse 模板初始化 `01_Shared/`
-5. 在 Obsidian 中打开 `01_Shared/`
-6. 配置 Claude Projects 上传核心配置
+4. 复制 `templates/CLAUDE.template.md` 为根目录 `CLAUDE.md`
+5. 选择 Ideaverse 模板初始化 `01_Shared/`
+6. 在 Obsidian 中打开 `01_Shared/`
+7. 配置 AI 工作模式（参考 `docs/04_AI配置完整版.md`）
 
 ### 对于现有用户
 
@@ -532,13 +539,13 @@ PersonalOS 整合了多个成熟的方法论：
 ## 版本历史
 
 - **v2.1** (2026-02-02)：重构版本，清晰的模块化结构
-- **v2.0** (2024-XX)：融合版本，整合三区框架和 PDCA 系统
+- **v2.0** (2024-XX)：融合版本，整合四区工作空间和 PDCA 系统
 - **v1.0** (2024-XX)：初始版本，基础框架
 
 详见 `CHANGELOG.md`。
 
 ---
 
-**最后更新**：2026-02-02  
+**最后更新**：2026-02-07
 **版本**：v2.1  
 **维护者**：PersonalOS 项目组

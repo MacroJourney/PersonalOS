@@ -27,14 +27,14 @@
 
 ## 文件结构
 
-系统使用**三区架构**：
+系统使用**四区工作空间**：
 
 ```
 PersonalOS/
-├── 00_Core/          # 核心配置（人类控制）
-├── 01_Shared/        # 协作区（Obsidian Vault）
-├── 02_Human/         # 私人空间
-└── 03_AI/            # AI 自主空间
+├── 00_Core/          # 核心规则（人主导，AI 遵守）
+├── 01_Shared/        # 人机协作区（Obsidian Vault）
+├── 02_Human/         # 私人空间（AI 不进入）
+└── 03_AI/            # AI 自主空间（AI 管理，人观察）
 ```
 
 ## 无需构建系统
@@ -51,7 +51,7 @@ PersonalOS/
 
 **macOS/Linux：**
 ```bash
-mkdir -p PersonalOS/{00_Core,01_Shared/{memory,rules,skills,projects,logs},02_Human,03_AI}
+mkdir -p PersonalOS/{00_Core/memory,01_Shared/{Atlas/{Dots,Maps,Sources},Calendar/{Days,Records,Reviews},Efforts/{Projects,Areas,Works},Strategy,Meta/rules,x,+},02_Human,03_AI/{workspace,tools,ai_diary,research}}
 ```
 
 **Windows (PowerShell)：**
