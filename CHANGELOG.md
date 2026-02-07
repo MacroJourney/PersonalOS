@@ -12,7 +12,7 @@
 - 新增 `docs/06_在仓库中搭建系统.md` - 详细的在仓库中搭建指南
 - 创建完整的 `README.md` 和文档索引
 - 新增 `examples/` 目录（4 个示例文档）
-- 新增 `docs/architecture/` 目录（3 个架构文档）
+- 新增架构设计内容（已合并入 `docs/00_核心设计.md`）
 - 创建 `.gitignore` 排除个人数据和付费内容
 
 ### 📖 文档改进
@@ -39,7 +39,7 @@
 **新增文件（21 个）**：
 - `README.md`, `CHANGELOG.md`, `.gitignore`
 - `docs/06_在仓库中搭建系统.md`
-- `docs/architecture/` (3 个文件)
+- 架构设计内容（已合并入 `docs/00_核心设计.md`）
 - `templates/00_Core/` (3 个模板)
 - `templates/01_Shared/.gitkeep`
 - `templates/obsidian-vault/README.md`

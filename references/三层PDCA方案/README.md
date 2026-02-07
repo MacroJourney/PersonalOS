@@ -393,7 +393,7 @@ Plan → Do → Check → Act
 - [PersonalOS 核心设计](../../docs/00_核心设计.md)
 - [PersonalOS 快速开始](../../docs/01_快速开始.md)
 - [PersonalOS 30 天成长计划](../../docs/02_30天成长计划.md)
-- [PDCA 系统架构](../../docs/architecture/PDCA系统.md)
+- [核心设计（含三层 PDCA 系统）](../../docs/00_核心设计.md)
 - [复盘模板](../../examples/review-templates.md)
 - [项目工作流](../../examples/project-workflow.md)
 

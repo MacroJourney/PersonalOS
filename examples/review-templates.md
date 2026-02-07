@@ -937,4 +937,4 @@
 
 - `examples/project-workflow.md` - 项目工作流示例
 - `docs/02_30天成长计划.md` - 30 天入门计划
-- `docs/architecture/PDCA系统.md` - PDCA 系统架构
+- `docs/00_核心设计.md` - 系统核心设计（含三层 PDCA 系统）

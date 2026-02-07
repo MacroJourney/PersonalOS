@@ -57,11 +57,7 @@ PersonalOS/
 │   ├── 03_模板库.md            # 9 个核心模板及使用说明
 │   ├── 04_AI配置完整版.md      # 三个 AI 角色 System Prompts
 │   ├── 05_FAQ与防坑.md         # 15 个常见问题 + 5 个反模式
-│   ├── 06_在仓库中搭建系统.md  # 在仓库内搭建工作空间指南
-│   └── architecture/           # 架构详细设计文档
-│       ├── 三区框架.md         # 四区工作空间详细设计
-│       ├── AI数字分身.md       # AI 角色设计
-│       └── PDCA系统.md         # 三层 PDCA 详细设计
+│   └── 06_在仓库中搭建系统.md  # 在仓库内搭建工作空间指南
 │
 ├── templates/                  # 可复制的模板文件
 │   ├── 00_Core/               # 核心配置模板
@@ -182,10 +178,7 @@ PersonalOS/  # 用户克隆本仓库后
 5. **配置 AI**：`docs/04_AI配置完整版.md`（三个 AI 角色完整 System Prompts）
 
 ### 架构理解路径
-- **系统总览**：`docs/00_核心设计.md`（包含所有核心概念）
-- **四区工作空间**：`docs/architecture/三区框架.md`
-- **AI 角色设计**：`docs/architecture/AI数字分身.md`
-- **PDCA 系统**：`docs/architecture/PDCA系统.md`
+- **系统总览（含四区工作空间、AI 角色、PDCA 系统）**：`docs/00_核心设计.md`（⭐ 唯一权威来源）
 - **模板说明**：`docs/03_模板库.md`
 
 ### 历史演进参考
@@ -322,8 +315,7 @@ PersonalOS/  # 用户克隆本仓库后
 - **复盘示例**：`examples/review-templates.md`
 
 ### 场景 3：理解设计理念
-- **快速理解**：`docs/00_核心设计.md`（⭐ 必读，683 行完整设计）
-- **深入架构**：`docs/architecture/` 目录下三个文档
+- **核心设计（含四区工作空间、AI 角色、PDCA 系统）**：`docs/00_核心设计.md`（⭐ 必读，唯一权威来源）
 - **历史演进**：`references/终极融合方案.md` + `references/三层PDCA方案/三层 PDCA 个人操作系统/04_融合方案_基于Ideaverse改造.md`
 
 ### 场景 4：贡献代码或文档
