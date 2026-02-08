@@ -13,12 +13,18 @@
 templates/obsidian-vault/Ideaverse Pro 2.5/
 templates/obsidian-vault/Ideaverse Zero 2.5/
 
-# 用户工作空间（如果在仓库中创建）
-00_Core/
-01_Shared/
-02_Human/
-03_AI/
-Other/
+# 用户工作空间（如果在仓库根目录中创建）
+/00_Core/
+/01_Shared/
+/02_Human/
+/03_AI/
+/Other/
+
+# 保留模板目录可提交
+!templates/00_Core/
+!templates/00_Core/**
+!templates/01_Shared/
+!templates/01_Shared/**
 
 # 临时文件
 *.tmp
