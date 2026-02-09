@@ -102,8 +102,8 @@ Ideaverse Zero 2.5/
 ```bash
 # 在 01_Shared/ 下添加
 mkdir -p Strategy          # 战略规划
-mkdir -p Meta/rules        # 决策规则库
-mkdir -p Meta/ai-conversations  # AI 对话记录
+mkdir -p x/rules               # 决策规则库
+mkdir -p x/ai-conversations    # AI 对话记录
 ```
 
 ## Obsidian 插件推荐

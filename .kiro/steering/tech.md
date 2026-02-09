@@ -51,7 +51,7 @@ PersonalOS/
 
 **macOS/Linux：**
 ```bash
-mkdir -p PersonalOS/{00_Core/memory,01_Shared/{Atlas/{Dots,Maps,Sources},Calendar/{Days,Records,Reviews},Efforts/{Projects,Areas,Works},Strategy,Meta/rules,x,+},02_Human,03_AI/{workspace,tools,ai_diary,research}}
+mkdir -p PersonalOS/{00_Core/memory,01_Shared/{Atlas/{Dots,Maps,Sources},Calendar/{Days,Records,Reviews},Efforts/{Projects,Areas,Works},Strategy,x/{rules,ai-conversations},+},02_Human,03_AI/{workspace,tools,ai_diary,research}}
 ```
 
 **Windows (PowerShell)：**

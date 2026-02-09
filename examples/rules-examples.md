@@ -50,8 +50,8 @@
 
 ### 4. 沉淀阶段
 - 提取可复用的规则或模板
-- 建议更新到 Meta/rules/ 或 x/Templates/
-- 记录到 Meta/ai-conversations/ 如果对话有价值
+- 建议更新到 x/rules/ 或 x/Templates/
+- 记录到 x/ai-conversations/ 如果对话有价值
 
 ## 决策权限
 
@@ -105,7 +105,7 @@
 
 ### 项目复盘
 - 项目完成后进行复盘
-- 提取经验教训到 `Meta/rules/`
+- 提取经验教训到 `x/rules/`
 - 项目完成后移动到 `Efforts/Projects/Sleeping/`
 
 ## 复盘规则

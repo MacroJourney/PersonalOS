@@ -29,7 +29,7 @@
 3. 00_Core/interaction_rules.md    ← 了解交互规则
 4. 00_Core/stop_conditions.md      ← 了解停止条件
 5. 00_Core/awakening_spell.md      ← 了解唤醒指令
-6. 01_Shared/Meta/rules/_index.md  ← 了解可用规则
+6. 01_Shared/x/rules/_index.md  ← 了解可用规则
 7. 01_Shared/Atlas/Dots/Skills/_index.md ← 了解可用技能
 ```
 
@@ -129,8 +129,8 @@ PersonalOS/
 
 ### 规则库（什么时候该做什么）
 
-- **位置**：`01_Shared/Meta/rules/`
-- **索引**：`01_Shared/Meta/rules/_index.md`
+- **位置**：`01_Shared/x/rules/`
+- **索引**：`01_Shared/x/rules/_index.md`
 - **操作**：任务前查阅，发现新规则时添加并更新索引
 
 ### 技能库（如何做某件事）
@@ -198,7 +198,7 @@ PersonalOS/
    - 重要决策及原因
 
 2. **按需**：
-   - 新规则 → `01_Shared/Meta/rules/` + 更新索引
+   - 新规则 → `01_Shared/x/rules/` + 更新索引
    - 新技能 → `01_Shared/Atlas/Dots/Skills/` + 更新索引
 
 ---
@@ -247,7 +247,7 @@ PersonalOS/
 ├── Atlas/Dots/Skills/      # 技能库
 ├── Atlas/Dots/             # 原子笔记
 ├── Atlas/Maps/             # MOC 索引
-└── Meta/rules/             # 规则库
+└── x/rules/                # 规则库
 ```
 
 ### AI 空间

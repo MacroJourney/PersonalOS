@@ -157,7 +157,6 @@ PersonalOS/                  # 仓库根目录
 │   ├── Calendar/
 │   ├── Efforts/
 │   ├── Strategy/
-│   ├── Meta/
 │   ├── x/
 │   └── +/
 │
@@ -231,11 +230,9 @@ PersonalOS/                  # 用户工作空间（独立位置）
 │   │   ├── quarterly/       # 季度规划
 │   │   └── reviews/         # 战略复盘
 │   │
-│   ├── Meta/                # 系统元数据
-│   │   ├── rules/           # 决策规则库
-│   │   └── ai-conversations/ # 重要 AI 对话
-│   │
 │   ├── x/                   # 系统资源
+│   │   ├── rules/           # 决策规则库
+│   │   ├── ai-conversations/ # 重要 AI 对话
 │   │   ├── Templates/       # 笔记模板
 │   │   ├── Packs/           # 资源包
 │   │   └── Visuals/         # 视觉资源
@@ -288,7 +285,7 @@ PersonalOS 的 `01_Shared/` 基于 **Ideaverse Pro 2.5** 框架：
 PersonalOS 在 Ideaverse 基础上增加了三层 PDCA 系统：
 
 - **Strategy/** - 战略层（季度/年度）
-- **Meta/rules/** - 决策规则库（复利增长）
+- **x/rules/** - 决策规则库（复利增长）
 - **Calendar/Reviews/** - 结构化复盘（持续改进）
 
 ### 如何使用 Ideaverse 模板

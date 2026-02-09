@@ -508,8 +508,8 @@ AI：很好！建议将这个解决方案记录到你的技能库：
 - `Atlas/Dots/Vercel 部署最佳实践.md`
 
 **规则**：
-- `Meta/rules/Web 项目技术选型清单.md`
-- `Meta/rules/SEO 优化检查清单.md`
+- `x/rules/Web 项目技术选型清单.md`
+- `x/rules/SEO 优化检查清单.md`
 
 **MOC**：
 - 更新 `Atlas/Maps/Web 开发.md`，添加本项目相关笔记
@@ -562,7 +562,7 @@ AI：好的，我会创建以下文件：
 
 1. `x/Templates/Next.js 项目初始化.md`
 2. `Atlas/Dots/MDX 配置指南.md`
-3. `Meta/rules/SEO 优化检查清单.md`
+3. `x/rules/SEO 优化检查清单.md`
 4. `Atlas/Dots/Vercel 部署最佳实践.md`
 
 同时，我会更新 `Atlas/Maps/Web 开发.md`，将这些新笔记链接进去。
